@@ -4,7 +4,7 @@
 # การเปิดไฟล์ write (w) extend (x)/ read (r)
 
 try :
-    f_iot = open ('IOT1.txt' , 'x' , encoding='utf-8') # ถ้าไม่มีมันจะสร้างไฟล์ใหม่
+    f_iot = open ('IOT3.txt' , 'x' , encoding='utf-8') # ถ้าไม่มีมันจะสร้างไฟล์ใหม่
 
     f_iot.write ('hello na ja')
     f_iot.write ('hello naa jaa\n')
